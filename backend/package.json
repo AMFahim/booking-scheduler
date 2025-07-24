@@ -14,7 +14,7 @@
     "prepare": "husky install",
     "build": "rimraf build && tsc -p tsconfig.json",
     "seed": "ts-node prisma/seed.ts",
-    "vercel-build": "tsc"
+    "vercel-build": "prisma generate && prisma db push && npm run build"
   },
   "keywords": [
     "node",
