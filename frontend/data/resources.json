@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "name": "Conference Room A",
+    "description": "Large conference room with projector and whiteboard",
+    "createdAt": "2025-01-15T08:00:00Z",
+    "updatedAt": "2025-01-15T08:00:00Z"
+  },
+  {
+    "id": 2,
+    "name": "Conference Room B",
+    "description": "Medium conference room with video conferencing",
+    "createdAt": "2025-01-15T08:00:00Z",
+    "updatedAt": "2025-01-15T08:00:00Z"
+  },
+  {
+    "id": 3,
+    "name": "Lab Equipment - Microscope",
+    "description": "High-resolution digital microscope",
+    "createdAt": "2025-01-15T08:00:00Z",
+    "updatedAt": "2025-01-15T08:00:00Z"
+  },
+  {
+    "id": 4,
+    "name": "Presentation Hall",
+    "description": "Large hall for presentations and events",
+    "createdAt": "2025-01-15T08:00:00Z",
+    "updatedAt": "2025-01-15T08:00:00Z"
+  },
+  {
+    "id": 5,
+    "name": "Study Room",
+    "description": "Quiet room for individual or small group study",
+    "createdAt": "2025-01-15T08:00:00Z",
+    "updatedAt": "2025-01-15T08:00:00Z"
+  }
+]
