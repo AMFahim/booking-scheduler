@@ -48,34 +48,6 @@ npm install
 # or
 yarn install
 ```
-
-## Usage
-
-You can use the booking scheduler as a module in your project or as a standalone service, depending on your requirements.
-
-### Example: Scheduling a Resource
-
-```js
-const Scheduler = require('booking-scheduler');
-
-// Initialize scheduler with your configuration
-const scheduler = new Scheduler({
-  bufferMinutes: 15, // buffer time between bookings
-});
-
-// Add a resource
-scheduler.addResource('Room A');
-
-// Book a resource
-const startTime = new Date('2025-07-24T10:00:00');
-const endTime = new Date('2025-07-24T11:00:00');
-const booking = scheduler.book('Room A', startTime, endTime);
-
-if (booking.success) {
-  console.log('Booking created:', booking.details);
-} else {
-  console.log('Booking failed:', booking.error);
-}
 ```
 
 ## Configuration
