@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "description": "REST API for schedular app with Node JS, TypeScript, Express and Prisma",
   "main": "src/index.ts",
-  "scripts": {
+    "scripts": {
+      "start": "yarn build && pm2 start ecosystem.config.json --no-daemon",
     "dev": "ts-node-dev src/index.ts",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
